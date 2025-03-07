@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Media expo",
+    "slug": "media-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ngourndiidev.mediaexpo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ngourndiidev.mediaexpo"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "779bad95-92b2-44f3-971c-b83cb9c810de"
+      }
+    },
+    "owner": "ngourndii-dev",
+    "updates": {
+      "url": "https://u.expo.dev/779bad95-92b2-44f3-971c-b83cb9c810de"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
